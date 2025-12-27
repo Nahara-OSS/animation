@@ -1,0 +1,24 @@
+{
+    "name": "@nahara/animation",
+    "version": "1.0.0",
+    "license": "MIT",
+    "fmt": {
+        "lineWidth": 120,
+        "indentWidth": 4
+    },
+    "compilerOptions": {
+        "isolatedDeclarations": true
+    },
+    "publish": {
+        "exclude": [
+            "example",
+            ".github",
+            ".vscode"
+        ]
+    },
+    "exports": {
+        ".": "./mod.ts",
+        "./core": "./core/mod.ts",
+        "./utils": "./utils/mod.ts"
+    }
+}
