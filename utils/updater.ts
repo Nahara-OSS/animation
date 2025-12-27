@@ -46,7 +46,7 @@
  * @module
  */
 
-import { type KeyframeData, type Timeline, type VectorLike, vScale } from "@nahara/animation/core";
+import { type KeyframeData, type Timeline, type VectorLike, vScale } from "../core/mod.ts";
 import { binarySearch } from "../internal/search.ts";
 
 /**
